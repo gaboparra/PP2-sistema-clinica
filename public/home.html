@@ -10,8 +10,63 @@
   <link rel="stylesheet" href="../css/styles.css">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100 bg-light">
 
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary px-4">
+    <a class="navbar-brand" href="#">Clínica SePrice</a>
+    <div class="ms-auto">
+      <a class="btn btn-outline-light" href="index.html">Cerrar sesión</a>
+    </div>
+  </nav>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="container py-5 flex-grow-1">
+    <h2 class="mb-4">Bienvenido, Nombre Apellido</h2>
+    <p class="lead">Este es tu panel principal. Desde aquí podrás gestionar tus citas, ver tus datos médicos y más.</p>
+
+    <div class="row g-4 mt-4">
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">Mis Turnos</h5>
+            <p class="card-text">Visualizá tus turnos próximos o pasados.</p>
+            <a href="#" class="btn btn-primary w-100 disabled">Ver Turnos</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">Solicitar Turno</h5>
+            <p class="card-text">Reservá un nuevo turno con el profesional que necesites.</p>
+            <a href="#" class="btn btn-success w-100 disabled">Nuevo Turno</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">Mi Historial</h5>
+            <p class="card-text">Accedé a tus consultas anteriores y estudios.</p>
+            <a href="#" class="btn btn-secondary w-100 disabled">Ver Historial</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white text-center py-3 mt-auto">
+    <div class="container">
+      <p class="mb-0">© 2025 Clínica SePrice - Todos los derechos reservados.</p>
+      <small>Contacto: info@seprice.com | Tel: (011) 1234-5678</small>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
 </body>
 
 </html>
