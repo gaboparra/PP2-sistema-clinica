@@ -1,0 +1,29 @@
+body {
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(4px);
+  margin: 0;
+  height: 100vh;
+}
+
+/* .card */
+.card {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+}
+
+/* Centrado de título */
+.card h4 {
+  text-align: center;
+  color: #007bff;
+}
+
+/* Enlaces del formulario */
+.card a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
